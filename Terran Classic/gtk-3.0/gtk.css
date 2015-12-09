@@ -1,0 +1,11 @@
+/*default color scheme */
+@define-color bg_color #EFEBE7;
+@define-color fg_color #101010;
+@define-color base_color #FFFFFF;
+@define-color text_color #1A1A1A;
+@define-color selected_bg_color #FFBE6B;
+@define-color selected_fg_color #1A1A1A;
+@define-color tooltip_bg_color #F5F5B5;
+@define-color tooltip_fg_color #000000;
+
+@import url("../../Terran/gtk-3.0/gtk-main.css");
