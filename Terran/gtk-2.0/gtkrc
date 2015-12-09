@@ -256,6 +256,13 @@ style "murrine-radiocheck"
 	bg[SELECTED] = @selected_bg_color # HACK: override button selection colour
 }
 
+style "murrine-radiocheck-menu"
+{
+	text[NORMAL]   = @fg_color
+	text[PRELIGHT] = @selected_fg_color
+	text[SELECTED] = @selected_fg_color
+}
+
 style "murrine-panel"
 {
 }
@@ -284,6 +291,11 @@ class "GtkHScrollbar"  					style "murrine-hscrollbar"
 
 #class "GtkRadio*"                        		style:highest "murrine-radiocheck" # HACK: override button selection colour
 #class "GtkCheck*"                           		style:highest "murrine-radiocheck" # HACK: override button selection colour
+#class "GtkRadioButton"					style:highest "murrine-radiocheck" # HACK: override button selection colour
+#class "GtkCheckButton"					style:highest "murrine-radiocheck" # HACK: override button selection colour
+
+class "GtkRadioMenuItem"				style:highest "murrine-radiocheck-menu"
+class "GtkCheckMenuItem"				style:highest "murrine-radiocheck-menu"
 
 # Use this to customize Metacity colours (causes issues with KDE/gtk-window-decorator)
 class "MetaFrames" 					style "metacity-frame"
