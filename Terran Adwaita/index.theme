@@ -7,6 +7,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Terran Adwaita
 MetacityTheme=Terran
-IconTheme=ubuntu-mono-light
+IconTheme=Adwaita
 CursorTheme=DMZ-White
 GtkColorScheme=fg_color:#101010101010,bg_color:#edededededed,text_color:#1a1a1a1a1a1a,base_color:#ffffffffffff,selected_fg_color:#ffffffffffff,selected_bg_color:#1c1c51518787,tooltip_fg_color:#000000000000,tooltip_bg_color:#f5f5f5f5b5b5
