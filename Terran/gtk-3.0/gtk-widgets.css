@@ -48,6 +48,8 @@
 
     background-origin: border-box;
     background-clip: padding-box;
+
+    -gtk-icon-style: regular; /* disable symbolic icons */
 }
 
 .background {
