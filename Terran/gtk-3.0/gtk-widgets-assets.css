@@ -357,78 +357,44 @@
     -gtk-icon-source: url("assets/backdrop-radio-mixed-disabled-alt.png");
 }
 
-.primary-toolbar .menu .check,
-.menubar.toolbar .menu .check,
-.header-bar .menu .check,
 .menu .check {
     -gtk-icon-source: url("assets/check-menuitem-unselected.png");
 }
 
-.primary-toolbar .menu .radio,
-.menubar.toolbar .menu .radio,
-.header-bar .menu .radio,
 .menu .radio {
     -gtk-icon-source: url("assets/check-menuitem-unselected.png");
 }
 
-.primary-toolbar .menu .check:checked,
-.menubar.toolbar .menu .check:checked,
-.header-bar .menu .check:checked,
-.toolbar .menu .check:checked:hover,
-.menu .check:checked,
+.menu .check:checked {
+    -gtk-icon-source: url("assets/check-menuitem-dark.png");
+}
+
 .menu .check:checked:hover {
     -gtk-icon-source: url("assets/check-menuitem.png");
 }
 
-.primary-toolbar .menu .check:checked:insensitive,
-.menubar.toolbar .menu .check:checked:insensitive,
-.header-bar .menu .check:checked:insensitive,
-.toolbar .menu .check:checked:hover:insensitive,
-.menu .check:checked:insensitive,
+.menu .check:checked:insensitive {
+    -gtk-icon-source: url("assets/check-menuitem-insensitive-dark.png");
+}
+
 .menu .check:checked:hover:insensitive {
     -gtk-icon-source: url("assets/check-menuitem-insensitive.png");
 }
 
-.primary-toolbar .menu .radio:checked,
-.menubar.toolbar .menu .radio:checked,
-.header-bar .menu .radio:checked,
-.toolbar .menu .radio:checked:hover,
-.menu .radio:checked,
+.menu .radio:checked {
+    -gtk-icon-source: url("assets/radio-menuitem-dark.png");
+}
+
 .menu .radio:checked:hover {
     -gtk-icon-source: url("assets/radio-menuitem.png");
 }
 
-.primary-toolbar .menu .radio:checked:insensitive,
-.menubar.toolbar .menu .radio:checked:insensitive,
-.header-bar .menu .radio:checked:insensitive,
-.toolbar .menu .radio:checked:hover:insensitive,
-.menu .radio:checked:insensitive,
+.menu .radio:checked:insensitive {
+    -gtk-icon-source: url("assets/radio-menuitem-insensitive-dark.png");
+}
+
 .menu .radio:checked:hover:insensitive {
     -gtk-icon-source: url("assets/radio-menuitem-insensitive.png");
-}
-
-.toolbar .menu .check {
-    -gtk-icon-source: url("assets/check-menuitem-unselected.png");
-}
-
-.toolbar .menu .radio {
-    -gtk-icon-source: url("assets/check-menuitem-unselected.png");
-}
-
-.toolbar .menu .check:checked {
-    -gtk-icon-source: url("assets/check-menuitem-dark.png");
-}
-
-.toolbar .menu .check:checked:insensitive {
-    -gtk-icon-source: url("assets/check-menuitem-insensitive-dark.png");
-}
-
-.toolbar .menu .radio:checked {
-    -gtk-icon-source: url("assets/radio-menuitem-dark.png");
-}
-
-.toolbar .menu .radio:checked:insensitive {
-    -gtk-icon-source: url("assets/radio-menuitem-insensitive-dark.png");
 }
 
 /*********************
