@@ -48,7 +48,6 @@
 
     background-origin: border-box;
     background-clip: padding-box;
-
     -gtk-icon-style: regular; /* disable symbolic icons */
 }
 
@@ -196,7 +195,7 @@
 
 .button.default:hover {
     border-image-source: url("assets/button-default-hover.png");
-}.
+}
 .button.default:focus {
     border-image-source: url("assets/button-default-focused.png");
 }
@@ -464,6 +463,15 @@ GdMainIconView.content-view {
     border-width: 0;
 
     color: @selected_fg_color;
+}
+
+/* Application notification */
+.app-notification,
+.app-notification.frame {
+    padding: 3px;
+    border-width: 0 1px 1px;
+    border-style: solid;
+    background-color: @bg_color;
 }
 
 /************
@@ -1148,76 +1156,24 @@ GtkScale.mark {
  * scrollbar *
  *************/
 .scrollbar {
-    -GtkScrollbar-has-backward-stepper: 0;
-    -GtkScrollbar-has-forward-stepper: 0;
+    -GtkScrollbar-has-backward-stepper: 1;
+    -GtkScrollbar-has-forward-stepper: 1;
     -GtkScrollbar-trough-border: 0;
     -GtkScrollbar-min-slider-length: 31;
     -GtkRange-slider-width: 10;
 
-    background-image: none;
-    background-size: 0;
     border: none;
-    border-radius: 0;
 }
 
 .scrollbar:hover,
 .scrollbar.dragging {
+    -GtkRange-slider-width: 10;
     background-color: @scrollbar_track_color;
-}
-
-.scrollbar:hover:backdrop,
-.scrollbar.dragging:backdrop {
-    background-color: @backdrop_selected_bg_color;
-}
-
-/* Adding margins, so actual visible size is: -GtkRange-slider-width - margin
- * this allows to keep the slider smaller, but keeping few threshold pixels
- */
-.scrollbar.vertical:hover:dir(ltr),
-.scrollbar.vertical.dragging:dir(ltr) {
-    margin-left: 2px;
-}
-
-.scrollbar.vertical:hover:dir(rtl),
-.scrollbar.vertical.dragging:dir(rtl) {
-    margin-right: 2px;
-}
-
-.scrollbar.horizontal:hover,
-.scrollbar.horizontal.dragging,
-.scrollbar.horizontal.slider:hover,
-.scrollbar.horizontal.slider.dragging {
-    margin-top: 2px;
 }
 
 .scrollbar.slider {
     background-color: alpha(@selected_bg_color, 0.8);
-    border-radius: 1px;
-}
-
-.scrollbar.slider.hovering,
-.scrollbar.slider.dragging {
-    border-radius: 2px;
-    margin: 0;
-}
-
-/* Adding margins, so actual visible size is: -GtkRange-slider-width - margin
- * this allows to define some kind of proximity effect also on mouse-enter
- */
-.scrollbar.slider.vertical:dir(ltr):not(:hover):not(.dragging) {
-    margin-left: 7px;
-}
-
-.scrollbar.slider.vertical:dir(rtl):not(:hover):not(.dragging) {
-    margin-right: 7px;
-}
-
-.scrollbar.slider.horizontal:not(:hover):not(.dragging) {
-    margin-top: 7px;
-}
-
-.scrollbar.slider:hover {
-    background-color: alpha(@selected_bg_color, 0.85);
+    border-radius: 8px;
 }
 
 .scrollbar.slider:active {
