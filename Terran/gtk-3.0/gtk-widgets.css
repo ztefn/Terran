@@ -1714,14 +1714,11 @@ GtkTextView {
  * tooltip *
  ***********/
 .tooltip {
-    background-image: -gtk-gradient (radial, center 0, 0, center 0, 0.8,
-                                     from (alpha (mix (@tooltip_bg_color, #ffffff, 0.2), 0.86)),
-                                     to (alpha (@tooltip_bg_color, 0.86)));
-    border-color: alpha (#ffffff, 0.2);
-    border-radius: 5px;
+    background-color: @tooltip_bg_color;
+    border-color: shade (@tooltip_bg_color, 0.55);
+    border-radius: 0;
     border-style: solid;
     border-width: 1px;
-
     color: @tooltip_fg_color;
 }
 
