@@ -11,8 +11,8 @@
     -GtkEntry-inner-border: 2;
     -GtkEntry-progress-border: 0;
     -GtkExpander-expander-size: 8;
-    -GtkHTML-link-color: #f07746; /* @link_color */
-    -GtkIMHtml-hyperlink-color: #f07746; /* @link_color */
+    -GtkHTML-link-color: #0000EE; /* @link_color */
+    -GtkIMHtml-hyperlink-color: #0000EE; /* @link_color */
     -GtkMenu-horizontal-padding: 0;
     -GtkMenu-vertical-padding: 5px;
     -GtkMenuBar-internal-padding: 0;
@@ -40,8 +40,8 @@
     -GtkWidget-separator-width: 2;
     -GtkWidget-separator-height: 2;
     -GtkWidget-wide-separators: true;
-    -GtkWidget-link-color: #f07746; /* @link_color */
-    -GtkWidget-visited-link-color: #f07746; /* @link_color */
+    -GtkWidget-link-color: #0000EE; /* @link_color */
+    -GtkWidget-visited-link-color: #0000EE; /* @link_color */
     -GtkWindow-resize-grip-width: 0;
     -GtkWindow-resize-grip-height: 0;
     -WnckTasklist-fade-overlay-rect: 0;
@@ -1927,5 +1927,5 @@ GtkViewport.frame {
 
 *:link,
 *:visited {
-    color: #f07746; /* @link_color */
+    color: #0000EE; /* @link_color */
 }
