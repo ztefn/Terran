@@ -1427,11 +1427,11 @@ GtkTextView {
     box-shadow: inset 0 1px shade (@selected_bg_color, 1.1);
 }
 
-.titlebar.header-bar .title {
+.header-bar .title {
     font: bold;
 }
 
-.titlebar.header-bar .subtitle {
+.header-bar .subtitle {
     font-size: smaller;
     opacity: 0.5;
 }
