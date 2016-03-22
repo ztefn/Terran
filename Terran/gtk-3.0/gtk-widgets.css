@@ -497,7 +497,12 @@ GdMainIconView.content-view {
  * window-frame *
  ****************/
 
-.window-frame {
+/* workaround to avoid unwanted black frames if switching compositor on/off */
+.background .window-frame  {
+    box-shadow: none;
+}
+
+.background.csd .window-frame {
     border-radius: 6px 6px 0px 0px;
     border-width: 10px;
     border-style: solid;
@@ -507,10 +512,19 @@ GdMainIconView.content-view {
     margin: 10px;
 }
 
+/* workaround to avoid unwanted black frames if switching compositor on/off */
+.window-frame:backdrop {
+    box-shadow: none;
+}
+
 .window-frame.csd.popup {
     border-style: none;
     border-radius: 0;
     box-shadow: 0 3px 8px @shadow_color;
+}
+
+.window-frame.csd.tooltip {
+    box-shadow: none;
 }
 
 /************
