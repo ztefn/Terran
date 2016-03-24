@@ -78,7 +78,7 @@
 
     border: 1px solid transparent;
     border-radius: 8px;
-    border-image-source: url("assets/button.png");
+    border-image-source: url("assets/button.svg");
 
     /* all button border images have the same size and are sliced in the same way */
     border-image-width: 10px 12px 10px 12px;
@@ -131,7 +131,7 @@
     background-color: mix (#ebebeb, @bg_color, 0.5);
 
     text-shadow: 0 1px alpha (shade (@button_bg_color, 1.25), 0.4);
-    border-image-source: url("assets/button-disabled.png");
+    border-image-source: url("assets/button-disabled.svg");
 }
 
 .button:insensitive:backdrop {
@@ -296,7 +296,7 @@ row:selected:backdrop {
 /* Draw a focus ring around the contained label ... */
 GtkCheckButton.text-button GtkLabel {
     border: 1px solid transparent;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 GtkCheckButton.text-button:focus GtkLabel {
@@ -890,7 +890,7 @@ GtkComboBox .menuitem *:hover {
 /* Draw a focus ring around labels in tabs */
 .notebook tab GtkLabel {
     border: 1px solid transparent;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .notebook:focus tab GtkLabel.active-page {
@@ -1128,7 +1128,7 @@ GtkScale.mark {
                                      color-stop(0.5, shade (@bg_color, 0.86)),
                                      color-stop(0.5, shade (@bg_color, 0.81)),
                                      color-stop(1, shade (@bg_color, 0.80)));
-    border-radius: 8px;
+    border-radius: 3px;
 }
 
 .scrollbar.slider:active {
