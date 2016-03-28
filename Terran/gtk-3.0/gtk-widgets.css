@@ -117,6 +117,10 @@
     /*border-image-source: url("assets/button-hover.png");*/
 }
 
+.button.flat:hover {
+    border-image-source: url("assets/button.svg");
+}
+
 .button:hover:backdrop {
     background-color: shade (@bg_color, 1.04);
     /*border-image-source: url("assets/backdrop-button-hover.png");*/
