@@ -6,33 +6,33 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   viewBox="0 0 25 21"
-   version="1.1"
-   id="svg4152"
+   width="25"
    height="21"
-   width="25">
+   id="svg4152"
+   version="1.1"
+   viewBox="0 0 25 21">
   <defs
      id="defs4154">
     <linearGradient
        id="linearGradient4727">
       <stop
-         id="stop4729"
+         style="stop-color:#000000;stop-opacity:0.06"
          offset="0"
-         style="stop-color:#000000;stop-opacity:0.06" />
+         id="stop4729" />
       <stop
-         id="stop4731"
+         style="stop-color:#000000;stop-opacity:0.05"
          offset="1"
-         style="stop-color:#000000;stop-opacity:0.05" />
+         id="stop4731" />
     </linearGradient>
     <linearGradient
-       gradientTransform="matrix(0.99921228,0,0,0.99903735,0.00984729,0.03610018)"
-       gradientUnits="userSpaceOnUse"
-       y2="47"
-       x2="12"
-       y1="28"
-       x1="12"
+       xlink:href="#linearGradient4727"
        id="linearGradient4733"
-       xlink:href="#linearGradient4727" />
+       x1="12"
+       y1="28"
+       x2="12"
+       y2="47"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0899981,0,0,1.1099774,-1.1249749,-31.124149)" />
   </defs>
   <metadata
      id="metadata4157">
@@ -46,35 +46,31 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     transform="translate(0,-27)"
-     id="layer1">
-    <rect
-       ry="3.5057313"
-       rx="3.5063453"
-       y="28.499563"
-       x="1.4995624"
-       height="18.000874"
-       width="22.000875"
-       id="rect4702"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient4733);stroke-width:0.99912477;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       ry="2.5385087"
-       rx="2.5420537"
-       y="29.499842"
-       x="2.4998412"
-       height="16.000317"
-       width="20.000317"
-       id="rect4702-1"
-       style="opacity:0.34;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99968249;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       ry="1.5025302"
-       rx="1.5026723"
-       y="30.499811"
-       x="3.4998109"
-       height="14.000379"
-       width="18.00038"
-       id="rect4702-1-6"
-       style="opacity:0.04;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.99962163;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-  </g>
+  <rect
+     ry="3.8950324"
+     rx="3.8249228"
+     y="0.50009221"
+     x="0.50009179"
+     height="19.999817"
+     width="23.999815"
+     id="rect4702"
+     style="opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient4733);stroke-width:1.00018358;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     ry="2.855726"
+     rx="2.7961836"
+     y="1.5001228"
+     x="1.5001233"
+     height="17.999754"
+     width="21.999754"
+     id="rect4702-1"
+     style="opacity:0.34000017;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00024652;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <rect
+     ry="1.7170942"
+     rx="1.6695726"
+     y="2.5001707"
+     x="2.5001698"
+     height="15.99966"
+     width="19.99966"
+     id="rect4702-1-6"
+     style="opacity:0.03999999;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00033939;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>

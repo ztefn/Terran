@@ -114,16 +114,16 @@
                                      color-stop(0.5, shade (@bg_color, 1.06)),
                                      color-stop(0.5, shade (@bg_color, 1.01)),
                                      color-stop(1, shade (@bg_color, 1.00)));
-    border-image-source: url("assets/button-hover.png");
+    /*border-image-source: url("assets/button-hover.png");*/
 }
 
 .button:hover:backdrop {
     background-color: shade (@bg_color, 1.04);
-    border-image-source: url("assets/backdrop-button-hover.png");
+    /*border-image-source: url("assets/backdrop-button-hover.png");*/
 }
 
 .button:hover:focus {
-    border-image-source: url("assets/button-focused-hover.png");
+    /*border-image-source: url("assets/button-focused-hover.png");*/
 }
 
 .button:insensitive {
@@ -196,14 +196,14 @@
 }
 
 .button.default:hover {
-    border-image-source: url("assets/button-default-hover.png");
+    /*border-image-source: url("assets/button-default-hover.png");*/
 }
 .button.default:focus {
     border-image-source: url("assets/button-default-focused.png");
 }
 
 .button.default:focus:hover {
-    border-image-source: url("assets/button-default-focused-hover.png");
+    /*border-image-source: url("assets/button-default-focused-hover.png");*/
 }
 
 /******************
